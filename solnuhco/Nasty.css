@@ -1,0 +1,25 @@
+.row{
+    margin: 30px 0;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+.gg{
+    border-radius: 30%;
+}
+.foto{
+    border-radius: 10%;
+}
+.masca{
+    width: 500px;
+}
+.my-fon{
+    background-image: url(fon.jpg);
+    color: aliceblue;
+}
+footer{
+    background-color: rgb(129, 129, 255);
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
