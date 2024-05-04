@@ -1,0 +1,51 @@
+.navbar{
+    background: linear-gradient(to right, rgb(186, 159, 190), rgb(179, 181, 187), rgb(128, 210, 206));
+}
+img{
+    width: 100%;
+}
+.fon-1{
+    background-image: linear-gradient(to bottom, #86baff, #FBFBFB);
+    padding-top: 80px;
+    padding-bottom: 70px;
+    margin-top: 50px;margin-bottom: 80px;
+}
+.my-card-1 img{
+ width: 30%;
+}
+.iimg{
+    width: 80%;
+}
+.my-card-2 img{
+    width: 50%;
+}
+.my-card-2{
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid rgb(105, 156, 188);
+}
+.fon-2{
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(to right bottom, gray, rgb(88, 91, 113), rgb(81, 24, 150));
+    color: white;
+}
+.fon-3{
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(to right, rgb(0, 157, 255), rgb(122, 180, 255), rgb(172, 208, 233));
+}
+.list{
+    list-style-image: url(list-img.png);
+}
+footer{
+    background: linear-gradient(to right, rgb(183, 136, 210), rgb(165, 147, 165), rgb(137, 17, 158));
+
+}
