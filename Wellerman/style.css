@@ -1,0 +1,35 @@
+.foto1{
+    width: 500px;
+    height: 570px;
+}
+.b{
+    color: red;
+}
+
+img{
+    width: 100%;
+}
+.navbar{
+ 
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+ 
+      
+}
+h5, h4, h3{
+   
+
+
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.zaglovok{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgb(120, 7, 7);
+    color: white;
+}
