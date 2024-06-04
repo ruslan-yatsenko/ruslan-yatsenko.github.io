@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Wet+Paint&family=Train+One&family=Yuji+Mai&display=swap');
+
+
+
+
+img{
+    width: 100%;
+}
+.logo{
+    width: 60px;
+}
+.foto2{
+    width: 380px;
+}
+.bag{
+    background-color: rgb(224, 224, 108);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+footer{
+    background-color: blue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    margin-top: 50px;
+    color: azure;
+}
+.card{
+    background-color: rgb(224, 224, 108);
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.foto:hover{
+    transform: scale(2);
+}
+.foto{
+    transition: 0.5s;
+}
+.mmm{
+    overflow: hidden;
+}
+h2, h3{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.navbar{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.osnov-img{
+    text-align: center;
+    background-image: url(fon-12.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 80%;
+    margin-bottom: 20px;
+    align-items: center;
+    font-family: "Train One", system-ui;
+    text-shadow: 0px 0px 3px gray, 0px 0px 1px red, 0px 0px 2px yellow;
+}
+.osnov-img p{
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    
+}
+.index{
+    text-align: center;
+    background-image: url(f-1111\ \(2\).jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 60%;
+    margin-bottom: 20px;
+    align-items: center;
+    font-family: "Train One", system-ui;
+    text-shadow: 0px 0px 3px gray, 0px 0px 1px red, 0px 0px 2px yellow;
+}
+.index p{
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    
+}
+.planer{
+    text-align: center;
+    background-image: url(fon33.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 60%;
+    margin-bottom: 20px;
+    align-items: center;
+    font-family: "Train One", system-ui;
+    text-shadow: 0px 0px 3px gray, 0px 0px 1px red, 0px 0px 2px yellow;
+}
+.planer p{
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    
+}
+.pruom{
+    text-align: center;
+    background-image: url(fonnnn.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 37%;
+    margin-bottom: 20px;
+    align-items: center;
+    font-family: "Train One", system-ui;
+text-shadow: 0px 0px 3px gray, 0px 0px 1px red, 0px 0px 2px yellow;
+}
+.pruom p{
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    
+}
