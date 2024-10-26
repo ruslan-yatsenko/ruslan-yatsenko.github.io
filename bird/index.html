@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Злови пташку!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Handjet:wght@100..900&family=Kablammo&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+background-color: aquamarine;
+        }
+        .game{
+            background-image: url(gif3.gif);
+            background-size: cover;
+            height: 60vh;
+            position: relative;
+        }
+        .bird{
+            width: 70px;
+            position: absolute;
+        }
+        .rizald img{
+            width: 70px;
+        }
+        .rezult{
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+        .div-rez{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 900;
+            font-size: 2em;
+        }
+   p{
+    font-family: "Handjet", sans-serif;
+   }
+  .bird2{
+width: 70px;
+  }
+  .bird:hover{
+    cursor: url(cursor.png), crosshair;
+  }
+    </style>
+</head>
+<body>
+    
+<div class="game">
+<img src="bird-rez.png" class="bird" alt="">
+</div>
+
+<div class="div-rez">
+    <div class="rezult">
+        <p>Зловлено</p>
+        <img src="bird-rez.png" class="bird2" alt="">
+        <p>:</p>
+    </div>
+<div class="div-coins"><p>0</p></div>
+</div>
+    <script>
+let pole = document.querySelector('.game');
+let bird = document.querySelector('.bird');
+let pRex = document.querySelector('.div-coins');
+
+let count = 0
+bird.onclick = function() {
+    count++
+    
+    pRex.innerHTML = count; 
+
+
+    move()
+}
+
+
+
+function move(){
+  let maxLeft, maxTop;
+  maxLeft = pole.clientWidth - bird.clientWidth
+  maxTop = pole.clientHeight - bird.clientHeight
+
+  let newLeft = maxLeft*Math.random();
+  let newTop = maxTop*Math.random();
+
+  bird.style.left= newLeft + 'px';
+  bird.style.top= newTop + 'px';
+
+}
+
+let time= setInterval(()=>{
+    move();
+}, 1500)
+
+    </script>
+</body>
+</html>
