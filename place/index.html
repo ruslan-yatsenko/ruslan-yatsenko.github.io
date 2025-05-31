@@ -1,1 +1,198 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цікаві місця Київської області</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header text-center">
+        <h1>Визначні місця Київської області</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+                <p>Київська область була утворена 27 лютого 1932 року
+
+                    Розташована в басейні середньої течії Дніпра, більшою частиною на Правобережжі. На сході межує з
+                    Чернігівською і Полтавською, на південному сході та півдні з Черкаською, на південному заході — з
+                    Вінницькою, на заході — з Житомирською областями України, на півночі — з Гомельською областю
+                    Республіки Білорусь.
+
+                    В області налічується 7 районів, 69 об'єднаних територіальних громад, 489 старостинських округів, 26
+                    міст, 30 селищ, загалом 1182 населених пунктів. Північну частину області площею близько 2 тис. км²
+                    займає Чорнобильська зона відчуження. Місто Славутич — ексклав Київської області на території
+                    Чернігівської області. Селище міського типу Коцюбинське — ексклав Київської області на території
+                    міста Києва.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-md-8 col-sm-10">
+                <div class="select-wrap">
+                    <div class="left">
+                        <h2>Оберіть варіант</h2>
+                        <select id="select-left">
+                            <option value="kuivobl">Київська область</option>
+                            <option value="irp">Ірпінь</option>
+                            <option value="gost">Гостомель</option>
+                            <option value="bila">Біла Церква</option>
+                            <option value="kuiv">Київ</option>
+                            <option selected value="bucha">Буча</option>
+                            <option selected value="voll">Володарка</option>
+                            <option selected value="ya">Ясногородка</option>
+                        </select>
+                        <div class="info">
+                            <p><span class="text-info">Ім'я:</span> <span class="name-left"></span></p>
+                            <p><span class="text-info"> Розмір</span> <span class="security-left"></span></p>
+                            <p><span class="text-info">Номер телофону безпеки:</span> <span class="battery-left"></span>
+                            </p>
+
+
+                            <p><span class="text-info">Визначні місця:</span> <span class="display-left"></span></p>
+                            <!-- <p><span class="text-info">Визначні місця:</span> </span></p> -->
+
+                            <img class="procesor-left" src=''>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-auto">
+                    <p>Інформація взята з ChatGPT</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+
+
+    <script>
+
+        let selectLeft = document.querySelector('#select-left')
+        let phones = [
+            {
+                name: 'kuivobl',
+                normalname: 'Київська область',
+                security: '28 121 км²',
+                buttery: ' 044 482 5632',
+                procesor: 'sobor.jpg',
+                display: 'Софіївський собор'
+            },
+            {
+                name: 'irp',
+                normalname: 'м. Ірпінь',
+
+                security: '110,8 км²',
+                buttery: '(04597) 614-07 ',
+                procesor: 'Park-Peremoga-Kiyiv-6.jpg',
+                display: 'Ірпінський міський парк “Перемога”'
+            },
+            {
+                name: 'gost',
+                normalname: 'Гостомель',
+
+                security: '64 км²',
+                buttery: '0683786434',
+                procesor: 'herkvagjst.jpg ',
+
+                display: 'Храм Покровської Пресвятої Богородиці'
+            },
+            {
+                name: 'bila',
+                normalname: 'Біла Церква',
+
+                security: '67,8 км²',
+                buttery: '+38 (067) 2923555',
+                procesor: '2Oleksandrija2019_jpg.jpg ',
+
+                display: 'Дендрологічний парк «Олександрія»'
+            },
+            {
+                name: 'kuiv',
+                normalname: 'Київ',
+
+                security: '839 км²',
+                buttery: '(044) 233-34-33',
+                procesor: '9159915.jpg ',
+
+                display: 'Андріївський узвіз'
+            },
+            {
+                name: 'bucha',
+                normalname: 'Буча',
+
+                security: '26,57 км²',
+                buttery: '(067) 443 08 23',
+                procesor: 'buchaaaa.jpg',
+
+                display: 'Бучанський міський парк'
+
+            },
+            {
+                name: 'voll',
+                normalname: 'Володарка',
+                security: '5.69 км²',
+                buttery: ' 044 482 5632',
+                procesor: 'ostrov_sakury14.jpg',
+                display: 'Парк "Острів сакури"'
+            },
+            {
+                name: 'ya',
+                normalname: 'Ясногородка',
+                security: '0,932 км²',
+                buttery: ' 044 482 5632',
+                procesor: 'ya.jpg',
+                display: 'Страусина ферма"'
+            },
+
+        ]
+
+
+        function Holidayyyyy(select, p1, p2, p3, p4, p5, p6) {
+            for (let i = 0; i < phones.length; i++) {
+                if (select.value == phones[i].name) {
+                    document.querySelector(p1).innerHTML = phones[i].normalname;
+                    document.querySelector(p2).innerHTML = phones[i].security;
+                    document.querySelector(p3).innerHTML = phones[i].buttery;
+                    document.querySelector(p4).src = phones[i].procesor;
+                    document.querySelector(p5).innerHTML = phones[i].display;
+
+                }
+            }
+        }
+
+
+        selectLeft.onchange = function () {
+            Holidayyyyy(selectLeft, '.name-left', '.security-left', '.battery-left', '.procesor-left', '.display-left')
+        }
+        Holidayyyyy(selectLeft, '.name-left', '.security-left', '.battery-left', '.procesor-left', '.display-left')
+
+    </script>
+</body>
+
+</html>
